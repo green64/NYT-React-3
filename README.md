@@ -1,43 +1,18 @@
-# Create React Express App
+# NYT Mongo Scrubber
+[NYT Mongo Scrubber](https://warm-brook-13640.herokuapp.com/)
 
-## About This Boilerplate
+## Object
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+This scrubber lets uses choose a topic, narrow the results with specified years, and save articles of interest. They can add notes to their saved articles or delete them too. 
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## Technology used
 
-## Starting the app locally
+This scrubber uses React for the V of it's MVC; it will also have a Mongo database. Additional technologies include Axios for the form to talk with React; JavaScript, Express and Yarn for package management. 
 
-Start by installing front and backend dependencies. While in this directory, run the following commands:
+## Code excerpts
 
-```
-yarn install
-cd client
-yarn install
-cd ..
-``
+None yet
 
-After both installations complete, run the following command in your terminal:
+## Conclusions
 
-```
-yarn start
-```
-
-That's it, your app should be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-After confirming that you have an up to date git repository and a Heroku app created, complete the following:
-
-1. Build the React app for production by running the following command:
-
-```
-yarn build
-```
-> Note: A yarn build will be required to register any new Post requests from any front-end JavaScript to to prevent any proxy server errors.
-
-2. Add and commit all changes to git
-
-3. Push to Heroku
-
-If all previous steps were followed correctly, your application should be deployed to Heroku!
+I didn't get as far as I wanted with this app yet. But I learned more about React and do plan to get it working; it just may not happen before July 12 :neckbeard:
