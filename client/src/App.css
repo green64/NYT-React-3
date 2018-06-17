@@ -1,0 +1,21 @@
+.searchbutton{
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+ 
+.searchbutton a{
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+ 
+.searchbutton a:link{
+  background: darkblue;
+  border: 5px solid lightblue;
+}
+ 
+.searchbutton a:hover{
+  background: #0048BA;
+  border: 5px solid lightblue;
+}

@@ -1,0 +1,16 @@
+.searchbody {
+  background: lightgray;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  margin:0 auto;
+  }
+
+  .searchbody h2 {
+    font-size: 2rem;
+    padding: 10px;
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+    }
+  

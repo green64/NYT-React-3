@@ -1,0 +1,14 @@
+.footer {
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: darkblue;
+}
+
+.footer h2 {
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
